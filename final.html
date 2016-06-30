@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> CINEWORLD!!</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.min1.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+    <link href="includes/css/styles.css" rel="stylesheet">
+
+    <script src="includes/js/modernizr-2.6.2.min.js"></script>
+    <script src="http://code.jquery.com/jquery.js"></script>
+
+    <!-- If no online access, fallback to our hardcoded version of jQuery -->
+    <script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+    <!-- Bootstrap JS -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="includes/js/script.js"></script>
+
+  </head><!--end head-->
+  <body>
+    <div class="modal fade" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">A Modal Window</h4>
+          </div><!-- end modal-header -->
+          <div class="modal-body">
+            <h4>Text in a modal</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p><small class="text-muted">PS. This form doesn't do anything. Just a heads up.</small></p>
+
+            <form class="form-horizontal">
+              <div class="form-group">
+                <label class="col-lg-2 control-label" for="inputName">Name</label>
+                <div class="col-lg-10">
+                  <input class="form-control" id="inputName" placeholder="Name" type="text">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="col-lg-2 control-label" for="inputEmail">Email</label>
+                <div class="col-lg-10">
+                  <input class="form-control" id="inputEmail" placeholder="Email" type="email">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="col-lg-2 control-label" for="inputMessage">Message</label>
+                <div class="col-lg-10">
+                  <textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+                  <button class="btn btn-success pull-right" type="submit">Send!</button>
+                </div>
+              </div>
+            </form>
+          </div><!-- end modal-body -->
+
+          <div class="modal-footer">
+            <button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+              <a href="#" class="btn btn-link popp" data-toggle="popover" data-placement="top" data-original-title="Free Subscription" data-content="One Month">Click it</a>
+          </div><!-- end modal-footer -->
+        </div><!-- end modal-content -->
+      </div><!-- end modal-dialog -->
+    </div><!-- end myModal -->
+
+        <div class="navbar navbar-fixed-top">
+    	<div class="container">
+
+    		<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+    		<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+    			<span class="icon-bar"></span>
+    			<span class="icon-bar"></span>
+    			<span class="icon-bar"></span>
+    		</button>
+
+    		<a class="navbar-brand" href="/"><img src="images/logos.jpg" alt="Your Logo"></a>
+
+    		<div class="nav-collapse collapse navbar-responsive-collapse">
+    			<ul class="nav navbar-nav pull-right">
+    				<li class="active">
+    					<a href="#">Home</a>
+    				</li>
+
+    				<li class="dropdown">
+    					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories <strong class="caret"></strong></a>
+
+    					<ul class="dropdown-menu">
+    						<li>
+    							<a href="#">Kollywood</a>
+    						</li>
+
+    						<li>
+    							<a href="#">Hollywood</a>
+    						</li>
+
+    						<li>
+    							<a href="#">Bollywood</a>
+    						</li>
+
+    						<li class="divider"></li>
+
+    						<li class="dropdown-header">More ..</li>
+
+    						<li>
+    							<a href="#">Click Here ..</a>
+    						</li>
+    					</ul><!-- end dropdown-menu -->
+    				</li>
+            <li>
+              <a href="news.html">News</a>
+    			</ul>
+
+    			<form class="navbar-form pull-left">
+    				<input type="text" class="form-control" placeholder="Search here..." id="searchInput">
+    				<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+    			</form><!-- end navbar-form -->
+        </div><!-- end nav-collapse -->
+
+    	</div><!-- end container -->
+    </div><!-- end navbar -->
+    <div class="carousel slide" id="myCarousel">
+
+    	<!-- Indicators -->
+    	<ol class="carousel-indicators">
+    		<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+    		<li data-slide-to="1" data-target="#myCarousel"></li>
+    		<li data-slide-to="2" data-target="#myCarousel"></li>
+    	</ol>
+
+    	<!-- Wrapper for slides -->
+    	<div class="carousel-inner">
+    		<div class="item active" id="slide1">
+    			<div class="carousel-caption">
+    				<h4>SUPERSTAR OF KOLLYWOOD</h4>
+    				<p>The Government of India has honoured him with the Padma Bhushan in 2000 and the Padma Vibhushan in 2016 for his contributions to the arts.</p>
+    			</div><!-- end carousel-caption-->
+    		</div><!-- end item -->
+
+    		<div class="item" id="slide2">
+    			<div class="carousel-caption">
+    				<h4>SUPERSTAR OF BOLLYWOOD</h4>
+    				<p>Referred to in the media as the "Baadshah of Bollywood", "King of Bollywood" or "King Khan", he has appeared in more than 80 Bollywood films, and earned numerous accolades, including 14 Filmfare Awards.</p>
+    			</div><!-- end carousel-caption-->
+    		</div><!-- end item -->
+
+    		<div class="item" id="slide3">
+    			<div class="carousel-caption">
+    				<h4>SUPERSTAR OF HOLLYWOOD</h4>
+    				<p>Cooper garnered consecutive Oscar nominations from 2013 to 2015 for his roles in the romantic comedy Silver Linings Playbook (2012), the comedy-drama American Hustle (2013), and the biographical war drama American Sniper (2014). </p>
+    			</div><!-- end carousel-caption-->
+    		</div><!-- end item -->
+    	</div><!-- carousel-inner -->
+
+    	<!-- Controls -->
+    	<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+    	<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+    </div><!-- end myCarousel -->
+  <div class="container">
+  <div class="row" id="moreInfo">
+  <div class="col-sm-6">
+    <div class="tabbable">
+
+    	<ul class="nav nav-tabs">
+    		<li class="active"><a href="#tab1" data-toggle="tab"><h4>Kollywood</h4></a></li>
+    		<li><a href="#tab2" data-toggle="tab"><h4>Hollywood</h4></a></li>
+        	<li><a href="#tab3" data-toggle="tab"><h4>Bollywood</h4></a></li>
+    	</ul>
+
+    	<div class="tab-content">
+    		<div class="tab-pane active" id="tab1">
+    			<h4><span class="glyphicon glyphicon-film">Videos <small>Hot Trending ...</small></span></h4>
+          <div class="row">
+            <div class="col-sm-6 col-md-6 col-xs-6 col-lg-4">
+    			       <iframe width="160" height="115" src="https://www.youtube.com/embed/_7mEsNT4HBs" frameborder="0" allowfullscreen></iframe>
+                 <h5>A Magnanimous move by a Vijay Fan</h5>
+            </div><!-- end col-4-->
+            <div class="col-sm-6 col-md-6 col-xs-6 col-lg-4">
+              <iframe width="160" height="115" src="https://www.youtube.com/embed/gp6YiUjV2Vs" frameborder="0" allowfullscreen></iframe>
+              <h5>Rajini's brother reveals Thalaivar's exact health condition </h5>
+            </div>
+            <div class="col-sm-6 col-md-6 col-xs-6 col-lg-4">
+              <iframe width="160" height="115" src="https://www.youtube.com/embed/no8-RcTP2rs" frameborder="0" allowfullscreen></iframe>
+              <h5>Hiphop Tamizha - Takkaru Takkaru (Official Music Video)</h5>
+            </div>
+            <div class="col-sm-6 col-md-6 col-xs-6 col-lg-4">
+              <iframe width="160" height="115" src="https://www.youtube.com/embed/KbkDCxTeyNU" frameborder="0" allowfullscreen></iframe>
+              <h5>I rejected Keerthi Suresh - Sivakarthikeyan Funny Speech | Remo Tamil Movie First Look, Title Song</h5>
+            </div>
+            <div class="col-sm-6 col-md-6 col-xs-6 col-lg-4">
+              <iframe width="160" height="115" src="https://www.youtube.com/embed/xYVYE-NlsxE" frameborder="0" allowfullscreen></iframe>
+              <h5>Nayanthara Says Sorry to Dhanush at Filmfare Award : Cold War coz Vignesh Shivan's Movie</h5>
+            </div>
+            <div class="col-sm-4 col-md-6 col-xs-6 col-lg-4">
+              <iframe width="160" height="115" src="https://www.youtube.com/embed/wg-kEWsL6Xc" frameborder="0" allowfullscreen></iframe>
+              <h5>Kabali Teaser | Neruppu Da Song Teaser | Rajinikanth</h5>
+            </div>
+          </div>
+    		</div><!-- end tab-pane -->
+
+    		<div class="tab-pane" id="tab2">
+    			<h4><span class="glyphicon glyphicon-film">Videos <small>Hot Trending ...</small></span></h4>
+
+            <div class="row">
+              <div class="col-sm-6 col-md-6 col-xs-6 col-lg-4">
+      			       <iframe width="160" height="115" src="https://www.youtube.com/embed/Sir1AqkXM7s" frameborder="0" allowfullscreen></iframe>
+                   <h5>Teaser Hulk 3 official 2015 trailer HD Hollywood latest new movie trailer</h5>
+              </div><!-- end col-4-->
+              <div class="col-sm-6 col-md-6 col-xs-6 col-lg-4">
+                <iframe width="160" height="115" src="https://www.youtube.com/embed/5gaFaYAlSaw" frameborder="0" allowfullscreen></iframe>
+                <h5>MESSI (The Movie) - Trailer (2015) </h5>
+              </div>
+              <div class="col-sm-6 col-md-6 col-xs-6 col-lg-4">
+              <iframe width="160" height="115" src="https://www.youtube.com/embed/Jh0phFcKUBU" frameborder="0" allowfullscreen></iframe>
+                <h5>2017 Top 10 Upcomming hollywood action movies trailer</h5>
+              </div>
+              <div class="col-sm-6 col-md-6 col-xs-6 col-lg-4">
+              <iframe width="160" height="115" src="https://www.youtube.com/embed/n39efSMGukk" frameborder="0" allowfullscreen></iframe>
+                <h5>The Expendables 4 Official Trailer #1 (2017) - Sylvester Stallone Movie</h5>
+              </div>
+              <div class="col-sm-6 col-md-6 col-xs-6 col-lg-4">
+              <iframe width="160" height="115" src="https://www.youtube.com/embed/1SCRu9IB6SY" frameborder="0" allowfullscreen></iframe>
+                <h5>Resident Evil 6 | The Final Chapter Trailer [Fanmade]</h5>
+              </div>
+              <div class="col-sm-6 col-md-6 col-xs-6 col-lg-4">
+                <iframe width="160" height="115" src="https://www.youtube.com/embed/ceM4SJZabfA" frameborder="0" allowfullscreen></iframe>
+                <h5>Matrix Movie Official Trailer (2017)</h5>
+              </div>
+            </div>
+
+
+
+    		</div><!-- end tab-pane -->
+        <div class="tab-pane" id="tab3">
+          <h4><span class="glyphicon glyphicon-film">Videos <small>Hot Trending ...</small></span></h4>
+
+            <div class="row">
+              <div class="col-sm-6 col-md-6 col-xs-6 col-lg-4">
+      			       <iframe width="160" height="115" src="https://www.youtube.com/embed/8uJ-wOljP_s" frameborder="0" allowfullscreen></iframe>
+                   <h5>'Mitti Di Khushboo' FULL VIDEO Song | Ayushmann Khurrana </h5>
+              </div><!-- end col-4-->
+              <div class="col-sm-6 col-md-6 col-xs-6 col-lg-4">
+                <iframe width="160" height="115" src="https://www.youtube.com/embed/sK7riqg2mr4" frameborder="0" allowfullscreen></iframe>
+                <h5>Agar Tum Saath Ho Song | Tamasha | Ranbir Kapoor</h5>
+              </div>
+              <div class="col-sm-6 col-md-6 col-xs-6 col-lg-4">
+                <iframe width="160" height="115" src="https://www.youtube.com/embed/bPk9bSvQQoc" frameborder="0" allowfullscreen></iframe>
+                <h5>'PREM RATAN DHAN PAYO'| Salman Khan,Sonam Kapoor </h5>
+              </div>
+              <div class="col-sm-6 col-md-6 col-xs-6 col-lg-4">
+              <iframe width="160" height="115" src="https://www.youtube.com/embed/9C7SKtJwt6E" frameborder="0" allowfullscreen></iframe>
+                <h5>Cham Cham Full Video Song Baaghi Shraddha Kapoor</h5>
+              </div>
+              <div class="col-sm-6 col-md-6 col-xs-6 col-lg-4">
+                <iframe width="160" height="115" src="https://www.youtube.com/embed/vsQf9OHU35s" frameborder="0" allowfullscreen></iframe>
+                <h5>Bolna | Kapoor &amp; Sons | Arijit Singh | Alia Bhatt</h5>
+              </div>
+              <div class="col-sm-6 col-md-6 col-xs-6 col-lg-4">
+              <iframe width="160" height="115" src="https://www.youtube.com/embed/BE8_rNJOQ-0" frameborder="0" allowfullscreen></iframe>
+                <h5>Yeh Ladka Hai Allah| Shahrukh Khan|Kajol</h5>
+              </div>
+            </div>
+        </div><!-- end tab-pane -->
+    	</div><!-- end tab-content -->
+    </div><!-- end tabbable -->
+  </div><!-- end col-sm-6-->
+  <div class="col-sm-6">
+    <h3>Top 10 BlockBuster Movies</h3>
+    <p>This is a ranking of the highest grossing films which includes films from various languages based on the conservative global box office estimates as reported by reputable sources. There is no official tracking of figures and sites publishing data are frequently pressured to increase their estimates</p>
+
+    <h4>Categories</h4>
+
+    <div class="list-group">
+      <a href="#" class="list-group-item">
+        <h4 class="list-group-item-heading">Kollywood</h4>
+        <p class="list-group-item-text"> Sivaji(2007)  Singam(2009)  Enthiran(2011)  Mankatha(2011)  Thupaaki(2012)  Linga(2014)  Kaththi(2014)  Irudhi Suttru(2015)  Vedhalam(2015)  Theri(2016)  </p>
+      </a>
+      <a href="#" class="list-group-item">
+        <h4 class="list-group-item-heading">Bollywood</h4>
+        <p class="list-group-item-text">Sholay(2014)  Hum Aapke Hain Koun(2011)  Gadar–EK Prem Katha(2008)  3Idiots(2007)  Ghajini(2009)  Dhoom3(2014)  PK(2015)  Dhoom2(2010)  Krrish3(2014)</p>
+      </a>
+      <a href="#" class="list-group-item">
+        <h4 class="list-group-item-heading">Hollywood</h4>
+        <p class="list-group-item-text">The Avengers(2012)  Jurassic World(2015)  Guardians of Galaxy(2014)  Transformers(2011)  Inception(2010)  Captain America(2016)  Independence Day(2016)  Martian(2015)  Jungle Book(2016)  The Walk(2015)</p>
+      </a>
+    </div><!-- list-group -->
+  </div><!-- end col-sm-6 -->
+</div><!-- end moreInfo -->
+</div>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2">
+      <h6>Copyright &copy; 2016 All Rights Reserved</h6>
+
+      </div><!-- end col-sm-2 -->
+
+      <div class="col-sm-4">
+        <h6>About Us</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div><!-- end col-sm-4 -->
+
+      <div class="col-sm-2">
+        <h6>Navigation</h6>
+        <ul class="unstyled">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Links</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div><!-- end col-sm-2 -->
+
+      <div class="col-sm-2">
+        <h6>Follow Us</h6>
+        <ul class="unstyled">
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Google Plus</a></li>
+        </ul>
+      </div><!-- end col-sm-2 -->
+
+      <div class="col-sm-2">
+        <h6>Coded with <span class="glyphicon glyphicon-heart"></span> by Aravind</h6>
+        <a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> SUBSCRIBE HERE!</a>
+      </div><!-- end col-sm-2 -->
+
+    </div><!-- end row -->
+  </div><!-- end container -->
+</footer>
+</body>
+</html>
